@@ -14,7 +14,7 @@ import {
 
 
 
-export class App extends React.Component {
+ class App extends React.Component {
   state = {
       feedback: { good: 0, neutral: 0, bad: 0 },
     };
@@ -75,5 +75,5 @@ export class App extends React.Component {
   }
 }
 
-
+export default App;
 
